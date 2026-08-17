@@ -92,9 +92,10 @@ ul.topnav li a:hover:not(.active) {background-color: #1f7a8c;}
 }
 
 
- main{
+ .main{
     background-color: #bfdbf7;
     color: #1f7a8c;
+    padding-left: 20px;
  }
 
  .footer a { 
