@@ -1,6 +1,6 @@
 
-const cars = ["Project Hail Mary", " Erin Brockowich", "The Martian"];
-document.getElementById("demo").innerText = cars;
+const filmer = ["Project Hail Mary", " Erin Brockowich", "The Martian"];
+document.getElementById("demo").innerText = filmer;
 
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
