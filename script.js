@@ -4,8 +4,6 @@ document.getElementById("demo").innerText = filmer;
 
 
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
-
-
 let fLen = fruits.length;
 
 let text = "<ul>";
