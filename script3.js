@@ -16,3 +16,5 @@ for (let i = 0; i < gamingTall.length; i++) { //Går gjennom alle elementene i a
     sum += x + "<br>";
 }
 document.getElementById("GamingTall").innerHTML = sum;
+
+
