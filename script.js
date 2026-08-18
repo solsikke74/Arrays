@@ -23,12 +23,5 @@ document.getElementById("tall").innerText = tall;
 const sum = tall.reduce((total, verdi) => total + verdi, 0);
 document.getElementById("sum").innerHTML = sum; 
 
-const steam = ["Counter-Strike 2", "Mortal Shell ||", "Big walk"];
-document.getElementById("steam").innerHTML = steam;
-
-function myFunction() {
-  steam.push("Wardogs");
-  document.getElementById("steam").innerHTML = steam;
-}
 
 
