@@ -18,3 +18,8 @@ for (let i = 0; i < gamingTall.length; i++) { //Går gjennom alle elementene i a
 document.getElementById("GamingTall").innerHTML = sum;
 
 
+for (let x of GamingTall) { //Går gjennom alle elementene i arrayet "gamingTall", et element om gangen. For hvert element, lagres det i variabelen "x".
+    if (x > 10) {
+document.getElementById(x).innerText = x;
+    }
+}
