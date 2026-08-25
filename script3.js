@@ -27,3 +27,11 @@ document.getElementById("TallOver10").innerText = resultat;
 
 const ord = ["banan", "eple", "banan", "appelsin", "banan", "kiwi", "banan"];
 document.getElementById("Bananrekke").innerText = ord.join(", ");
+
+let antall = 0;
+for (let x of ord) {
+if (x === "banan") {
+    antall++;
+}
+}
+document.getElementById("BananAntall").innerText = antall;
