@@ -24,3 +24,6 @@ for (let x of GamingTall) { //Går gjennom alle elementene i arrayet "gamingTall
     }
 }
 document.getElementById("TallOver10").innerText = resultat;
+
+const ord = ["banan", "eple", "banan", "appelsin", "banan", "kiwi", "banan"];
+document.getElementById("Bananrekke").innerText = ord.join(", ");
