@@ -12,4 +12,7 @@ function myFunctionpop() {
 document.getElementById("steam3").innerText = steam; 
 }
 
-
+function byttSpill() {
+    steam[1] = "War Dogs";
+    document.getElementById("steam4").innerText = steam;
+}
