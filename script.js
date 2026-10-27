@@ -15,10 +15,22 @@ text += "</ul>";
 document.getElementById("fruit").innerHTML = text;
 document.getElementById("fruit2").innerText = text;
 
-const tall = [1, 2, 3, 4, 5];
-document.getElementById("tall").innerText = tall;
+const Berries = ["Strawberry", "Raspberry", "Blueberry", "Blackberry"];
 
-const sum = tall.reduce((total, verdi) => total + verdi, 0);
+let BerriesText = "<ul>";
+
+for (let i = 0; i < Berries.length; i++) {
+  BerriesText += "<li>" + Berries[i] + "</li>";
+}
+BerriesText += "</ul>";
+
+document.getElementById("berries").innerHTML = BerriesText;
+
+
+const tallrekke = [1, 2, 3, 4, 5];
+document.getElementById("tall").innerText = tallrekke;
+
+const sum = tallrekke.reduce((total, verdi) => total + verdi, 0);
 document.getElementById("sum").innerHTML = sum; 
 
 
